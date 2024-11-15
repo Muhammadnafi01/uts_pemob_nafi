@@ -1,0 +1,20 @@
+name: isolasi
+description: A new Flutter project.
+
+environment:
+  sdk: '^3.5.0'  # Tambahkan constraint versi SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.24.0
+  firebase_messaging: ^10.0.0
+  flutter_local_notifications: ^12.0.0  # Tambahkan ini jika belum ada
+  google_maps_flutter: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
